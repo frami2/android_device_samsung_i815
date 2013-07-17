@@ -24,3 +24,5 @@ TARGET_OTA_ASSERT_DEVICE := i815,SCH-I815
 TARGET_KERNEL_CONFIG := cyanogenmod_i815_defconfig
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i815/bluetooth
+# @daniel added
+BOARD_USES_BH1721FVC := true
