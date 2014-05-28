@@ -15,4 +15,4 @@ ro.com.google.clientidbase.gmm=android-samsung
 ro.com.google.clientidbase.yt=android-verizon
 
 # tvdpi
-ro.sf.lcd_density=213
+ro.sf.lcd_density=182
