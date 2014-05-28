@@ -19,11 +19,6 @@ $(call inherit-product-if-exists, vendor/samsung/i815/vendor.mk)
 # Set preferred size for assets
 PRODUCT_AAPT_PREF_CONFIG := tvdpi
 
-# Audio
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/configs/etc/tinyalsa-audio.xml:system/etc/tinyalsa-audio.xml \
-	$(LOCAL_PATH)/configs/etc/audio_policy.conf:system/etc/audio_policy.conf
-
 # GPS
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/etc/gps.conf:system/etc/gps.conf
