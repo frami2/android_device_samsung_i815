@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,3 +26,4 @@ TARGET_KERNEL_CONFIG := cyanogenmod_i815_defconfig
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i815/bluetooth
 # @daniel added
 BOARD_USES_BH1721FVC := true
+TARGET_TOROPLUS_RADIO := true
