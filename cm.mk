@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,6 +20,7 @@ TARGET_SCREEN_WIDTH := 1280
 
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := Samsung
@@ -30,4 +31,4 @@ PRODUCT_NAME := cm_i815
 PRODUCT_RELEASE_NAME := SCH-I815
 
 # Set product name and build fingerprint
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SCH-I815 BUILD_FINGERPRINT="Verizon/SCH-I815/SCH-I815:4.0.4/IMM76D/LP10:user/release-keys" PRIVATE_BUILD_DESC="SCH-I815-user 4.0.4 IMM76D LP10 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SCH-I815 BUILD_FINGERPRINT="samsung/SCH-I815/SCH-I815:4.3.1/JLS36I:user/release-keys" PRIVATE_BUILD_DESC="SCH-I815-user 4.3.1 JLS36I release-keys"
