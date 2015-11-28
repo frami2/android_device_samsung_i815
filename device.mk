@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, build/target/product/telephony.mk)
 
 PRODUCT_COPY_FILES += \
+	device/samsung/smdk4210-tab/configs/etc/old-apns-conf.xml:system/etc/old-apns-conf.xml \
 	frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml
 
 PRODUCT_PACKAGES += \
