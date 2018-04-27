@@ -26,6 +26,9 @@ TARGET_KERNEL_CONFIG := cyanogenmod_i815_defconfig
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i815/bluetooth
 # @daniel added
 BOARD_USES_BH1721FVC := true
+
+# libsec-ril_lte.so is broke due to a missing symbol in surfacecomposerclient
 TARGET_TOROPLUS_RADIO := true
 
 TARGET_INVENSENSE_SENSOR := 60xx
+
